@@ -17,7 +17,7 @@ for symbol in range(1, nr_symbols + 1):
 for number in range(1, nr_numbers + 1):
     list_characters.append(random.choice(numbers))
 
-randomized = ' '
+randomized = ''
 for item in range(1, len(list_characters) + 1):
     chosen = random.choice(list_characters)
     randomized += chosen
